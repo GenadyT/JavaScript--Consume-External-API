@@ -1,0 +1,496 @@
+header {
+    /*background-image: url(/Content/Images/page_header_bg_pattern.png);
+    background-repeat: repeat;*/
+    
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    width: 100%;
+    height: 70px;
+    /* border: 2px solid grey; */
+}
+
+body {
+    margin-top: 55px;
+}
+
+.ri-bg-primary {
+    background-color: #1c1c1c !important;
+}
+
+main {
+    /* margin-top: 105px; */
+    width: 82%;
+    float: left;
+}
+
+aside {
+    
+}
+
+h2 {
+    color: #545454;
+    text-align: center;
+}
+
+section {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+:root {
+
+}
+    
+
+ .navbar > .ri-container {
+    margin-left: 10px;
+ }
+
+ .ri-navbar-brand {
+    margin-right: auto;
+ }
+
+#ScrollTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 13px;
+    border-radius: 4px;
+  }
+  
+  #ScrollTopBtn:hover {
+    background-color: #555;
+  }
+
+.the-schilder-works-header {
+
+}
+
+.carousel-paintings {
+    background-color: #b92f2f;
+    max-width: 550px;
+    margin: auto;
+}
+
+.schilders-scrollspy-carousel {
+    /* max-width: 700px; */
+    margin: auto;
+    margin-bottom: 40px;
+    background-color: #4f4f4f;
+    /* top: 50px; */
+    /* position: relative; */
+    /* margin-top: 50px; */
+    padding: 20px;
+    padding-top: 50px;
+}
+
+.carousel-img {
+    height: 285px;
+    width: auto;
+    margin: auto;
+}
+
+.schilders-scrollspy {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px;
+    border-color: #EAEDED;
+}
+
+.schilders-scrollspy-nav {
+    background-color: #F8F9F9;
+    /* border-bottom-color: #AEB0B0; */
+    border-bottom: 1px solid #6e6e6e;
+    padding-bottom: 10px;
+}
+    .schilders-scrollspy-nav .nav-link {
+        font-weight: bold;
+        text-decoration-line: underline;
+        
+    }
+    .schilders-scrollspy-nav h2 {
+        margin-top: 5px;
+    }
+
+    .schilders-scrollspy-nav .nav-link {
+        color: #b92f2f;
+        padding: 6px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .schilders-scrollspy-nav .nav-link.disabled {
+        color: #efc3c3;
+    }
+    .spy-content-sec-h {
+        /* color: #08439C; */
+        color: #545454;
+        font-size: 15px;
+        margin-bottom: 0px;
+        font-weight: bold;
+        /* text-decoration: underline; */
+        /* border-bottom: 1px solid #cc3636; */
+    }
+
+
+.art-objects-container {
+    display: flex;
+    /* align-items: flex-start; */
+    /* flex-direction: row; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.art-object-container-link {
+    
+margin: 10px;
+}
+        
+.art-object {
+    display: inline-block;
+    margin: 3px;
+    width: 200px;
+    border: 1px solid #d9ddd4;
+    border-radius: 2px;
+}
+    .art-object-big {
+        width: auto;
+    }
+        .art-object-big .web-image {
+            
+        }
+
+figure.art-object > figcaption {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.schilder-work {
+
+}
+    
+    .schilder-work .web-image {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        /* margin-bottom: 0.3rem; */
+        margin-bottom: -1px;
+        border-radius: 3px;
+        /* box-sizing: content-box; */
+        /* padding: 0; */
+        /* margin: 0; */
+    }
+    .schilder-work .web-image-big {
+        border: 7px solid #000000;
+    }
+
+.ri-navbar {
+    width: 100%;
+    max-width: 750px;
+    max-height: 500px;
+}    
+    .ri-navbar-nav {
+
+margin-left: auto;
+
+}
+
+.bd-example.ri-scrollspy {
+    border: 2px solid lightgray;
+    padding: 0px;
+    margin: 20px;
+}
+
+    .schilders-scrollspy-nav .nav-item {
+        margin: 6px;
+    }
+
+    .ri-navbar h3 a.nav-link,
+    .schilders-group h3 {
+        color: grey;
+    }
+
+    .schilders-group {
+        margin-bottom: 20px;
+    }
+        .schilders-group h3 {
+            padding-left: 7px;
+            margin-bottom: 2px;
+        }
+        .schilders-group ul {
+            margin-left: 5px;
+        }
+
+        .ri-navbar h3 a.nav-link:hover {
+            color: #424949;
+        }
+
+    .ri-nav-ul {
+        margin: 10px;
+    }    
+
+    .ri-navbar-brand {
+        padding-bottom: 0px;
+    }   
+        .ri-navbar-brand h2 {
+            margin-bottom: 0px;
+        }       
+
+
+    .navbar-targets-schilder-li {
+        margin: 6px;
+        display: block;
+    }
+
+    .navbar-targets-schilder-li,
+    .navbar-targets-schilder-li > a {
+        display: inline-block;
+        background-color: aliceblue;
+        border-radius: 4px;
+    }
+
+ .schilders-group-ul,
+ .spy-content-ul {
+    list-style-type: none;
+    list-style-position: inside;
+    padding-left: 10px;
+ }
+    .schilders-group-ul > li {
+        display: inline-block;
+        margin-left: 30px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .schilders-group-ul a:link,
+    .schilders-group-ul a:visited,
+    .schilders-group-ul a:hover,
+    .schilders-group-ul a:active {
+        text-decoration: none;
+        font-size: 15px;
+        /* font-weight: bold; */
+        color: #cc3636;
+    }
+
+    .schilders-group-ul a:hover span {
+        text-decoration: underline;
+    }
+
+        .schilders-group-ul a span::before {
+            content: '\2022';
+            padding-right: 4px;
+            padding-left: 3px;
+            font-weight: bold;
+            font-size: 1.3rem;
+        }    
+            .schilders-group-ul a span { 
+                font-size: 1.0rem;                    
+            }
+
+.ri-scrollspy-example {
+    height: 300px;
+}
+    
+.spy-content-ul {
+    margin-top: 30px;
+    padding-left: 25px;
+}
+    .spy-content-ul-li {
+        margin-bottom: 20px;
+    }
+
+.schider-works {
+    max-width: 800px;
+}    
+
+.painting-details-sec {
+    width: 100%;
+    max-width: 750px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* grid-gap: 10px; */
+    /* background-color: #2196F3; */
+    /* padding: 10px; */
+  }  
+    .grid-container > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 1rem;
+        text-align: left;
+    }
+    .grid-container textarea {
+        width: 100%;
+    }
+
+
+ .painting-details-fs textarea,
+.painting-details-fs input{
+    font-size: 0.9rem;
+ } 
+    .painting-details-fs label {
+        font-weight: bold;
+        color: #59666f;
+        margin: 0.1rem;
+        font-size: 0.9rem;
+    }
+
+ .more-details-link {
+    
+font-size: 1rem;
+    
+font-weight: bold;
+    
+color: #579603;
+ }
+
+/*--- Bootstrap custom ------------------------------------------------------------------*/
+
+:root {
+    --jbtn-border-radius: 2px;
+}
+
+
+.ri-carousel {
+    border-radius: var(--jbtn-border-radius);
+}
+
+
+.ri-jumbotron {
+    border-radius: var(--jbtn-border-radius);
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 750px;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+    .ri-jumbotron > .container {
+        padding-left: 2rem;
+    }
+    .ri-jumbotron h1 i {
+        font-size: 1.1rem;
+        font-weight: bold;
+        color: #000000;
+    }
+
+
+.jumbotron-1-level {
+
+}
+
+.jumbotron-2-level {
+    background-color: #a7b19a;
+}
+
+.jumbotron-3-level {
+    background-color: #d2fd9a;
+}
+    .jumbotron-3-level h1 {
+        font-size: 1.7rem;
+    }
+    .jumbotron-3-level .lead {
+        font-size: 1.4rem;
+        font-weight: bold;
+        color: #59666f;
+        font-family: cursive;
+        margin-top: 1.4rem;
+    }
+
+.ri-display-4 {
+    
+font-size: 3rem;
+}
+
+
+/*--- Layout Measures --------------------------------------------------------------*/
+.left-aside {
+    background-color: #fff9ae;
+    float: left;
+}
+
+.right-aside {
+    background-color: #d2e6b5;
+    float: right;
+}
+
+.left-aside, .right-aside {
+    width: 14%;
+    height: 200px;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+    font-size: 10px;
+    visibility: hidden;
+}
+
+main {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 70%;
+}
+
+.schilders-scrollspy {
+    max-width: 800px;
+}
+
+
+@media (max-width: 1030px) { 
+    .left-aside {
+        display: none;;
+    }
+
+    main {
+        width: 84%;
+    }
+}
+
+@media (max-width: 900px) { 
+    .right-aside {
+        display: none;
+    }
+
+    main {
+        width: 98%;
+        float: none;
+    }
+}
+
+@media (max-width: 790px) { 
+    .bd-example {
+        padding: 5px;
+    }
+
+    .ri-jumbotron {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .bd-example {
+        padding: 0px;
+        margin: 0px;
+        border: none;
+    }
+}
+
+.mr-auto, .mx-auto {
+    margin-right: 0px !important;
+}
+
+.navbar-brand.inner-navbar {
+    color: #ada3a3;
+}
