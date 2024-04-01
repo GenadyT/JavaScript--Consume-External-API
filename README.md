@@ -1,6 +1,6 @@
 ## Consume ExternalAPI by JavaScript
 
-This .Net C# project is an example of consuming an external API by JavaScript/jQuery.
+This Web project is an example of consuming an external API by JavaScript/jQuery.
 
 ### Project Topic
 
