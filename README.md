@@ -1,6 +1,4 @@
-## Project Name
-
-Rijksmuseum Web API
+## Rijksmuseum Web API
 
 ### Project Topic
 
