@@ -19,9 +19,7 @@ body {
 }
 
 main {
-    /* margin-top: 105px; */
-    width: 82%;
-    float: left;
+    
 }
 
 aside {
@@ -42,9 +40,15 @@ section {
 
 }
     
+.bd-example {
+    margin-top: 5rem !important;
+}
+
 
  .navbar > .ri-container {
     margin-left: 10px;
+    margin-right: 10px;
+    max-width: 100% !important;
  }
 
  .ri-navbar-brand {
@@ -82,15 +86,16 @@ section {
 }
 
 .schilders-scrollspy-carousel {
-    /* max-width: 700px; */
+    /*max-width: 700px; */
     margin: auto;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
     background-color: #4f4f4f;
     /* top: 50px; */
     /* position: relative; */
     /* margin-top: 50px; */
     padding: 20px;
-    padding-top: 50px;
+    padding-top: 85px;
+    padding-bottom: 55px;
 }
 
 .carousel-img {
@@ -143,21 +148,26 @@ section {
 
 .art-objects-container {
     display: flex;
-    /* align-items: flex-start; */
-    /* flex-direction: row; */
+    align-items: flex-start;
+    flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.art-object-container-link {
-    
-margin: 10px;
+.art-object-container-link {    
+    flex: 1 1;
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
         
 .art-object {
     display: inline-block;
     margin: 3px;
-    width: 200px;
+    width: 100%;
+    max-width: 20rem;
+    min-width: 13rem;
     border: 1px solid #d9ddd4;
     border-radius: 2px;
 }
@@ -167,6 +177,12 @@ margin: 10px;
         .art-object-big .web-image {
             
         }
+
+.painting-details-sec .art-object {
+    max-width: 40rem;
+    display: block;
+    margin: auto;
+}
 
 figure.art-object > figcaption {
     padding: 0.5rem;
@@ -470,6 +486,10 @@ main {
 }
 
 @media (max-width: 790px) { 
+    .navbar-brand.inner-navbar {
+        display: none;
+    }
+
     .bd-example {
         padding: 5px;
     }
